@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 500px;
+}
+
+th, td {
+    border: 2px solid white;
+    padding: 10px;
+    text-align: left;
+    font-family: oswald;
+    color: white;
+}
+
+th {
+    background: #86006f;
+    font-size: 1.2em;
+}
+
+tr:nth-last-of-type(even) {
+    background: #f37ecf;
+}
+
+tr:nth-last-of-type(odd) {
+    background: #af5593;
+}
